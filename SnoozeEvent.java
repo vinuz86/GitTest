@@ -12,5 +12,6 @@ public class SnoozeEvent extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         Toast.makeText(context, "Snooze!!!", Toast.LENGTH_LONG).show();
+  Toast();
     }
 }
